@@ -258,3 +258,7 @@ def run_artemis():
 def start_artemis():
     threading.Thread(target=run_artemis, daemon=True).start()
     display.window.mainloop()
+
+
+if __name__ == "__main__":
+    start_artemis()
